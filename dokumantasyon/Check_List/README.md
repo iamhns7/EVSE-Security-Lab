@@ -1,6 +1,6 @@
 # 🛡️ OCPP & EV Şarj İstasyonu Güvenlik Kontrol Listesi (50 Madde)
 
-Bu kontrol listesi, elektrikli araç şarj istasyonlarının (EVCS) merkezi yönetim sistemi (CSMS) ve şarj ünitesi (CP) arasındaki iletişim ve donanım katmanlarında karşılaşılabilecek olası güvenlik zafiyetleri ve anomali türlerini kapsamaktadır. [cite_start]Özellikle, projemizin odak noktası olan **Zaman Kaydırma** ve **Enerji Hırsızlığı** gibi siber-fiziksel anomalilerin tespiti hedeflenmiştir[cite: 5, 81, 165].
+Bu kontrol listesi, elektrikli araç şarj istasyonlarının (EVCS) merkezi yönetim sistemi (CSMS) ve şarj ünitesi (CP) arasındaki iletişim ve donanım katmanlarında karşılaşılabilecek olası güvenlik zafiyetleri ve anomali türlerini kapsamaktadır. Özellikle, projemizin odak noktası olan **Zaman Kaydırma** ve **Enerji Hırsızlığı** gibi siber-fiziksel anomalilerin tespiti hedeflenmiştir[cite: 5, 81, 165].
 
 ## 🎯 Projenin Amacı ve Kapsamı
 
