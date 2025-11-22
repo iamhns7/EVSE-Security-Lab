@@ -15,9 +15,9 @@ Saldırgan, şarj istasyonu (CP) ile merkezi yönetim sistemi (CSMS) arasındaki
 | Parametre | Fiziksel Gerçeklik | Saldırganın Kaydı | Sonuç |
 | :--- | :--- | :--- | :--- |
 | **Gerçek Zaman** | Yüksek Tarife (Örn: 14:00)  | Düşük Tarife (Örn: 02:00) | **Yanlış Faturalandırma** |
-| **Gerçek Tüketim** | 50 kWh  | [cite_start]35 kWh  | **Gelir Kaybı (Revenue Loss)** |
+| **Gerçek Tüketim** | 50 kWh  | 35 kWh  | **Gelir Kaybı (Revenue Loss)** |
 
-### Saldırının Vektörleri [cite: 290, 291, 304, 305]
+### Saldırının Vektörleri 
 
 * **Zaman Damgası Manipülasyonu:** `MeterValues` veya `TransactionEvent` mesajlarının zaman damgası değiştirilir.
 * **NTP Zehirlenmesi:** Şarj istasyonunun NTP sunucusuna müdahale edilerek sistem saati kaydırılır.
@@ -53,13 +53,13 @@ Geliştirilecek sistemin başarısını ölçmek için hedefler belirlenmiştir:
 | **Hedef 1** | Anomali Tespit Sisteminin Geliştirilmesi | Anormal davranışların $\ge 95\%$ doğrulukla tespiti. |
 | **Hedef 3** | Enerji Hırsızlığı ve Sahte Veri Algoritması | Enerji hırsızlığının gerçek zamanlı olarak $\ge 90\%$ hassasiyetle tespiti. |
 | **Hedef 4** | Gerçek Zamanlı İzleme ve Müdahale Modülü | Şüpheli aktivite tespit edildiğinde ortalama 30 saniye içinde otomatik müdahale (şarjı durdurma). |
-| **Hedef 5** | Standartlara Uygunluk | Geliştirilen sistemin OCPP 2.0, ISO 27001 ve ISO 15118 gibi standartlara $100\%$ uyumlu olması. |
+| **Hedef 5** | Standartlara Uygunluk | Geliştirilen sistemin OCPP 1.6, ISO 27001 ve ISO 15118 gibi standartlara $100\%$ uyumlu olması. |
 
 ### C. Analiz Bileşenleri
 
 | Kategori | Açıklama |
 | :--- | :--- |
-| **Güçlü Yönler (Strengths)** | Yapay zekâ (Zaman Serisi Kümeleme, Autoencoder) [cite: 113] [cite_start]ve blokzincir teknolojisi kullanılarak veri bütünlüğünün ve izlenebilirliğin sağlanması. |
+| **Güçlü Yönler (Strengths)** | Yapay zekâ (Zaman Serisi Kümeleme, Autoencoder) ve blokzincir teknolojisi kullanılarak veri bütünlüğünün ve izlenebilirliğin sağlanması. |
 | **Zayıf Yönler (Weaknesses)** | Blokzincir katmanının mimariye eklenmesiyle oluşabilecek **Mesaj İşleme Süresi** ve **CPU/Bellek** kullanımı artışı. |
 | **Fırsatlar (Opportunities)** | Geliştirilen sistemin uluslararası standartlara (OCPP, ISO 15118) uyumluluğu ile pilot uygulama ve yaygınlaştırma potansiyeli. |
 | **Tehditler (Threats)** | MitM, Sahte Mesaj Enjeksiyonu ve Tekrar Saldırıları gibi aktif siber tehditlerin varlığı; standartlarda belirtilen minimum güvenlik gereksinimlerinin aşılamaması. |
