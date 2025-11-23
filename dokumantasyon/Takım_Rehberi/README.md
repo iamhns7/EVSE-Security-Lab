@@ -1,4 +1,5 @@
-👥 Takım Rehberi: Proje Organizasyonu
+👥 Takım Rehberi: Proje Organizasyonu   
+
 Bu klasör, Bilgi Sistemleri Güvenliği projesi ekibinin yapısını ve temel çalışma esaslarını belirleyen ana belgeleri içermektedir.
 
 📁 Klasör İçeriği Özeti
