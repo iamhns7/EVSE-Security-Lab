@@ -39,7 +39,7 @@ Bu klasör, projenin yönetim, planlama ve akademik gerekliliklerini karşılaya
 
 * **Takım Rehberi:** Proje ekibinin organizasyon yapısını, üye listesini ve anomali senaryosu dağılımını gösteren kılavuzlar.
 
-* **Proje Sunumu:** Ders sunumunda kullanılan materyaller (örn. PowerPoint/PDF) ve bu sunumun içerik özetleri.
+* **Proje Sunumu:** Ders sunumunda kullanılan materyaller (PowerPoint/PDF) ve bu sunumun içerik özetleri.
 
 ### 3. 📂 `Simülasyon`
 
